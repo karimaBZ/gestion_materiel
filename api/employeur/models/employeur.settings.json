@@ -30,6 +30,9 @@
         "directeur",
         "RH"
       ]
+    },
+    "materials": {
+      "collection": "material"
     }
   }
 }

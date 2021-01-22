@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "materials",
+  "info": {
+    "name": "material"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "codeREF": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "nom": {
+      "type": "enumeration",
+      "enum": [
+        "Ecran",
+        "clavier",
+        "souris",
+        "PC",
+        "casque",
+        "tapis_de_souris",
+        "imprimente",
+        "JABRA",
+        "Ipad",
+        "Iphone"
+      ],
+      "required": true
+    }
+  }
+}
