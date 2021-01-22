@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employeurs",
+  "info": {
+    "name": "employeur",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "prenom": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "poste": {
+      "type": "enumeration",
+      "enum": [
+        "developpeur",
+        "directeur",
+        "RH"
+      ]
+    }
+  }
+}
