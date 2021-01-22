@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/employeurs",
+      "handler": "employeur.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employeurs/count",
+      "handler": "employeur.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employeurs/:id",
+      "handler": "employeur.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/employeurs",
+      "handler": "employeur.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/employeurs/:id",
+      "handler": "employeur.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/employeurs/:id",
+      "handler": "employeur.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
