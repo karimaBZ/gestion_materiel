@@ -12,6 +12,7 @@ import PageTitle from '../../components/PageTitle';
 import { useModels } from '../../hooks';
 import { Block, Container } from './components';
 import ShortCuts from './ShortCuts';
+import ExportMaterial from './exportMaterial'
 
 const HomePage = ({ }) => {
 
@@ -55,6 +56,9 @@ const HomePage = ({ }) => {
                 {msg => <h2 id="mainHeader">{msg}</h2>}
               </FormattedMessage>
               <ShortCuts /> 
+            </Block>
+            <Block>
+            <ExportMaterial />
             </Block>
           </div>
         </div>
