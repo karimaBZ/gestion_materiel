@@ -58,7 +58,7 @@ const Block = styled.div`
 `;
 
 const Container = styled.div`
-  padding: 47px 13px 0 13px;
+  padding: 30px 13px 0 13px;
   > div {
     margin: 0;
   }
@@ -75,15 +75,7 @@ const P = styled.p`
   }
 `;
 
-const Wave = styled.div`
-  &:before {
-    content: '👋';
-    position: absolute;
-    top: 24px;
-    right: 30px;
-    font-size: 50px;
-  }
-`;
+
 
 const ALink = styled.a`
   display: inline-block;
@@ -222,39 +214,4 @@ const LinkWrapper = styled.a`
     font-weight: 600;
   }
 `;
-
-const SocialLinkWrapper = styled.div`
-  position: relative;
-  height: 24px;
-  margin-bottom: 30px;
-  font-size: 14px;
-  font-weight: 500;
-  a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    color: #333740 !important;
-    text-decoration: none;
-    line-height: 18px;
-    img,
-    span {
-      display: inline-block;
-      vertical-align: middle;
-    }
-    img {
-      height: 24px;
-      width: 24px;
-      object-fit: contain;
-    }
-    span {
-      width: calc(100% - 24px);
-      padding-left: 11px;
-      font-weight: 600;
-    }
-    &:hover {
-      text-decoration: none;
-    }
-  }
-`;
-
-export { ALink, Block, Container, LinkWrapper, P, Separator, SocialLinkWrapper, Wave };
+export { ALink, Block, Container, LinkWrapper, P, Separator };
