@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "employeurs",
+  "collectionName": "employe",
   "info": {
-    "name": "employeur",
+    "name": "employe",
     "description": ""
   },
   "options": {
