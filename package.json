@@ -12,6 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "exceljs": "^4.2.0",
+    "moment": "^2.29.1",
     "react-datetime": "^3.0.4",
     "strapi": "3.4.4",
     "strapi-admin": "3.4.4",
