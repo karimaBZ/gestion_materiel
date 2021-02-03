@@ -17,7 +17,6 @@ module.exports = {
       const searchQuery = start && end ? { createdAt_lte: end, createdAt_gte: start } : {};
       const materialList = await strapi.query('material').find(searchQuery);
       const userList = await strapi.query('employeur').find(searchQuery);
-      console.log("exportMaterial -> userList", userList)
       const workbook = new Excel.Workbook();
       //première Liste de matériels
       const worksheet1 = workbook.addWorksheet('Liste de matériels');
