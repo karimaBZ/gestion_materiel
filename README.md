@@ -12,16 +12,16 @@ you have to copy file from node_modules/strapi-admin/admin floder to project dir
 and modify files that you need to change 
 # create excel file
 you have to change into the HomePage floder 
-### 1 - add exportMaterial Compenent which we add calander and button submit witch it's a click to strapi-export/export-material
-### 2-  Before this step we should add strapi-export floder in extensions 
-### 3- Create routes to export-strapi controllers
-### 4- strapiExport file contains the export function (file , csv , excell ... )
+### 1 - add exportMaterial Compenent which we add calander and button submit witch it's a click to strapi-export/export-material <br/>
+### 2-  Before this step we should add strapi-export floder in extensions <br/>
+### 3- Create routes to export-strapi controllers <br/>
+### 4- strapiExport file contains the export function (file , csv , excell ... ) <br/>
 # create send email custom provider
 ### create a free compte in https://app.mailjet.com/
 get 
-MAILER_HOST=in-v3.mailjet.com
-MAILER_PORT= 587
-MAILER_API=your username
-MAILER_API_KEY=your API key 
-### create .env (copy of .en.example)
+MAILER_HOST=in-v3.mailjet.com <br/>
+MAILER_PORT= 587 <br/>
+MAILER_API=your username <br/>
+MAILER_API_KEY=your API key  <br/>
+### create .env (copy of .env.example)
 ### create a twig template
